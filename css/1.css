@@ -1,3 +1,73 @@
-body{
-    background-color: #3b35a3;
+::-webkit-scrollbar {
+    width: 10px;
+    margin: auto
+}
+
+::-webkit-scrollbar-track {
+    background-color: black
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(217, 208, 242);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #1c194e;
+}
+
+.BG{
+    z-index: -1000;
+    width: 100vw;
+}
+
+.font{
+    font-family: 'Oxanium', cursive;
+}
+
+.font2{
+    font-family: 'Oxanium', cursive;
+    font-weight: 700;
+}
+
+.navbg{
+    background-color: rgba(23, 32, 74, .9);
+    backdrop-filter: blur(4px);
+}
+
+.navimg {
+    max-width: 30px;
+}
+
+.Sbg {
+    background-color: rgba(23, 32, 74, .6);
+    margin-top: 20vh;
+}
+
+.Sbg2{
+    background-color: rgba(23, 32, 74, .6);
+    margin-top: 10vh;
+}
+
+.RDD{
+    max-width: 500px;
+}
+
+.CB{
+    max-width: 400px;
+}
+
+.md{
+    position: relative;
+}
+
+.centerd{
+    position: absolute;
+    top: 50%;
+  transform: translateY(-50%);
 }
