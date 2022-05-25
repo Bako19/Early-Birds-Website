@@ -26,48 +26,80 @@ body {
     width: 100vw;
 }
 
-.font{
-    font-family: 'Oxanium', cursive;
+.navfont{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    color: rgb(180, 175, 175);
 }
 
-.font2{
-    font-family: 'Oxanium', cursive;
-    font-weight: 700;
+.navfont2{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    color: #1c194e;
 }
+
+.nav-link:focus, .nav-link:hover {
+color: rgb(249, 236, 236);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white;
+    border-bottom:  3px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0px;
+}
+
 
 .navbg{
-    background-color: rgba(23, 32, 74, .9);
-    backdrop-filter: blur(4px);
 }
 
 .navimg {
-    max-width: 30px;
+    max-width: 20px;
 }
 
 .Sbg {
-    background-color: rgba(23, 32, 74, .6);
+    background-color: rgb(24, 22, 69, 0.8);
     margin-top: 20vh;
+    border: 5px solid #3800a9;
 }
 
 .Sbg2{
-    background-color: rgba(23, 32, 74, .6);
+    background-color: rgb(24, 22, 69, 0.8);
+    margin-top: 20vh;
+    border: 5px solid #3800a9;
     margin-top: 10vh;
 }
 
-.RDD{
-    max-width: 500px;
+.font{
+    font-family: 'MinecraftiaRegular';
 }
 
-.CB{
-    max-width: 400px;
+.font2{
+    font-family: 'MinecraftiaRegular';
+    font-weight: 700;
 }
 
-.md{
-    position: relative;
+.animation{
+	-webkit-animation-duration: 0.3s;
+	animation-duration: 0.3s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
 }
 
-.centerd{
-    position: absolute;
-    top: 50%;
-  transform: translateY(-50%);
+
+@keyframes slideUpIn {
+	0% {
+		transform: translateY(20px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+	0% {
+		transform: translateY(20px);
+	}
+}
+
+.slideUpIn {
+	-webkit-animation-name: slideUpIn;
+	animation-name: slideUpIn;
 }
