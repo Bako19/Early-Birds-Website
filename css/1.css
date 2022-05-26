@@ -49,17 +49,13 @@ color: rgb(249, 236, 236);
     border-radius: 0px;
 }
 
-
-.navbg{
-}
-
 .navimg {
-    max-width: 20px;
+    max-width: 25px;
 }
 
 .Sbg {
     background-color: rgb(24, 22, 69, 0.8);
-    margin-top: 20vh;
+    margin-top: 10vh;
     border: 5px solid #3800a9;
 }
 
@@ -102,4 +98,22 @@ color: rgb(249, 236, 236);
 .slideUpIn {
 	-webkit-animation-name: slideUpIn;
 	animation-name: slideUpIn;
+}
+
+.h5, h5 {    
+    font-size: .8rem
+}
+
+.h1, h1{
+    font-size:1.75rem
+}
+
+.h3, h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    line-height: 1.4;
 }
